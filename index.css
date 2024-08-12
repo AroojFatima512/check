@@ -91,25 +91,22 @@ form button {
 
 .image {
     width: 40vw;
-    background-image: url('./images/image\ 48.png');
-    background-repeat: no-repeat;
+    height: 40vw;
 }
 
+.img{
+    border-radius: 10px;
+    width: 37vw;
+    height: 37vw;
+}
 .img-text {
     width: 35vw;
     text-align: center;
     font-size: 2.3vw;
     font-weight: 700;
     line-height: 1.3em;
-    position: relative;
-    top: 27vw;
-}
-
-.img {
-    margin: 10px;
-    width: 37vw;
-    height: 37vw;
-    opacity: 1.9;
+    position: absolute;
+    top: 37vw;
 }
 
 footer {

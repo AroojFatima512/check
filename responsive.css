@@ -1,11 +1,46 @@
-.form{
+.form {
     flex-direction: column;
 }
+
 form {
-    justify-content: center;
-    width: 80vw;
+    width: 90vw;
+    margin: auto;
 }
+
+.section,
+footer {
+    height: 150vh;
+}
+
+.heading {
+    padding: 4vw 6vw 6vw 6vw;
+    font-size: 6vw;
+}
+
 form input,
 form textarea {
-    width: 80vw;
+    width: 90vw;
+}
+
+.image {
+    width: 100vw;
+}
+
+.img {
+    width: 70vw;
+    height: 70vw;
+    margin: auto;
+}
+
+.img-text {
+    width: 60vw;
+}
+
+@media screen and (max-width:600px) {}
+
+@media screen and (max-width:400px) {
+    .heading {
+        font-size: 8vw;
+    }
+
 }
