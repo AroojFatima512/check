@@ -15,7 +15,7 @@
 .section,
 footer {
     width: 100vw;
-    height: 160vh;
+    height: 130vh;
 }
 
 .heading {
@@ -85,7 +85,6 @@ form button {
     width: 170px;
     background-color: blueviolet;
     padding: 13px 30px;
-    margin: 6px;
     cursor: pointer;
     border: 2px solid black;
 }
@@ -95,11 +94,12 @@ form button {
     height: 40vw;
 }
 
-.img{
+.img {
     border-radius: 10px;
     width: 37vw;
     height: 37vw;
 }
+
 .img-text {
     width: 35vw;
     text-align: center;
@@ -139,6 +139,7 @@ footer {
     border-radius: 30px;
     font-weight: bold;
     margin: 45px 0px;
+    cursor: pointer;
 }
 
 .button i {
@@ -190,24 +191,126 @@ footer {
     list-style: none;
 }
 
-.social a{
+.social a {
     text-decoration: none;
 
 }
+
 @media screen and (max-width:1100px) {
-footer{
-    justify-content: space-between;
+    .section,
+    footer {
+        width: 100vw;
+        height: 150vh;
+    }
+
+    footer {
+        justify-content: space-between;
+    }
+
+    .left {
+        margin-left: 30px;
+        padding: 60px 20px;
+    }
+
+    .right {
+        padding: 100px 20px;
+    }
 }
-.left {
-    margin-left: 30px;
-    padding: 60px 20px;
-    width: 55vw;
+
+@media screen and (max-width:800px) {
+    .form {
+        flex-direction: column;
+    }
+
+    form {
+        width: 90vw;
+        margin: 20px auto;
+    }
+
+    .heading {
+        padding: 4vw 6vw 6vw 6vw;
+        font-size: 6vw;
+    }
+
+    form input,
+    form textarea {
+        width: 90vw;
+    }
+
+    .image {
+        width: 100vw;
+    }
+
+    .img {
+        width: 80vw;
+        height: 80vw;
+        margin: auto;
+    }
+
+    .img-text {
+        width: 80vw;
+        font-size: 5vw;
+    }
+
+    footer {
+        justify-content: unset;
+        flex-direction: column;
+    }
+
+    .left {
+        margin-left: 20px;
+        width: 90vw;
+    }
+
+    .copy {
+        display: block;
+    }
+
+    .right {
+        width: 100vw;
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+    .first,
+    .second {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contact {
+        margin-top: 0px;
+        padding-top: 0px;
+        text-align: center;
+    }
+
+    .sec {
+        width: 40vw;
+    }
+
+    .follow {
+        margin-top: 0px;
+        padding: 20px 0px;
+    }
+
+    .icon {
+        width: 33vw;
+    }
+
+    .foot {
+        font-size: 30px;
+    }
+
 }
-.right {
-    padding: 100px 20px;
-    width: 35vw;
-}
-footer{
-    height: 300vw;
-}
+
+@media screen and (max-width:400px) {
+    .heading {
+        font-size: 8vw;
+    }
+
+    .img-text {
+        top: 120vh;
+        left: 10vw;
+    }
+
 }
