@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+    letter-spacing: -1;
+    line-height: 1.2em;
+}
+
+.section {
+    background-color: rgb(23, 23, 37);
+}
+
+.section,
+footer {
+    width: 100vw;
+    height: 120vh;
+}
+
+.heading {
+    padding: 4vw 10vw;
+    font-size: 4vw;
+    font-weight: 700;
+}
+
+strong {
+    color: #6E1FCE;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+}
+
+form input,
+form textarea {
+    background-color: black;
+    padding: 30px 60px;
+    width: 37vw;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 26px;
+}
+
+form input {
+    background-position: 20px center;
+}
+
+form textarea {
+    background-position: 20px 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    position: relative;
+}
+
+form input[name="name"] {
+    background-image: url('./images/bxs_user-circle.png');
+}
+
+form input[name="number"] {
+    background-image: url('./images/ant-design_phone-filled.png');
+}
+
+form input[name="email"] {
+    background-image: url('./images/fluent_mail-20-filled.png');
+}
+
+form textarea {
+    background-image: url('./images/bxs_chat.png');
+}
+
+form button {
+    display: flex;
+    border-radius: 30px;
+    width: 165px;
+    background-color: blueviolet;
+    padding: 13px 30px;
+    margin: 6px;
+    cursor: pointer;
+    border: 2px solid black;
+}
+
+.image {
+    width: 40vw;
+}
+
+.img-text {
+    width: 35vw;
+    text-align: center;
+    font-size: 2.3vw;
+    font-weight: 700;
+    line-height: 1.3em;
+    position: absolute;
+    top: 38vw;
+}
+
+.img {
+    margin: 10px;
+    width: 37vw;
+    height: 37vw;
+    opacity: 1.9;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+
+.left {
+    padding: 80px;
+    width: 55vw;
+}
+
+.foot {
+    font-size: 55px;
+    font-weight: 600;
+    padding: 50px 0px;
+}
+
+.text {
+    color: gray;
+}
+
+.button {
+    padding: 15px 30px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-weight: bold;
+    margin: 45px 0px;
+}
+
+.button i {
+    color: black;
+}
+
+.font {
+    padding: 3px 0px;
+}
+
+.privacy {
+    text-decoration: underline;
+}
+
+.copy {
+    margin-top: 20px;
+    padding: 30px 0px;
+    display: flex;
+}
+
+.right {
+    padding: 100px;
+    width: 35vw;
+}
+
+.contact {
+    margin-top: 20px;
+    font-weight: bold;
+    padding: 30px 0px;
+}
+
+.mail {
+    margin-bottom: 40px;
+}
+
+.follow {
+    padding-top: 60px;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social {
+    font-size: 30px;
+}
