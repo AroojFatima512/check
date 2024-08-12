@@ -90,6 +90,8 @@ form button {
 
 .image {
     width: 40vw;
+    background-image: url('./images/image\ 48.png');
+    background-repeat: no-repeat;
 }
 
 .img-text {
@@ -98,8 +100,8 @@ form button {
     font-size: 2.3vw;
     font-weight: 700;
     line-height: 1.3em;
-    position: absolute;
-    top: 38vw;
+    position: relative;
+    top: 27vw;
 }
 
 .img {
