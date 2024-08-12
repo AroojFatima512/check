@@ -4,12 +4,11 @@
 
 form {
     width: 90vw;
-    margin: auto;
+    margin: 20px auto;
 }
 
-.section,
-footer {
-    height: 150vh;
+.section {
+    height: 140vh;
 }
 
 .heading {
@@ -34,13 +33,58 @@ form textarea {
 
 .img-text {
     width: 60vw;
+    font-size: 5vw;
 }
 
-@media screen and (max-width:600px) {}
+footer {
+    justify-content: unset;
+    flex-direction: column;
+}
+
+.left{
+    width: 90vw;
+}
+
+.copy{
+    display: block;
+}
+.right {
+    width: 100vw;
+    padding: 0px;
+}
+
+.first,
+.second {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact {
+    margin-top: 0px;
+    text-align: center;
+}
+
+.sec {
+    width: 40vw;
+}
+
+.follow {
+    margin-top: 0px;
+    padding: 10px 0px;
+    padding-top: 0px;
+}
+
+.icon{
+    width: 30vw;
+}
+.foot{
+    font-size: 30px;
+}
 
 @media screen and (max-width:400px) {
     .heading {
         font-size: 8vw;
     }
+
 
 }
